@@ -22,12 +22,14 @@ The data from the csv file was loaded into pandas dataframe and transformed to b
   - EIN, NAME
   
 ## Compile, Train and Evaluate the Model
-A neural network model was created using Tnsorflow Keras consisting of 2 hidden layers with relu activation and an outer layer with sigmoid. The model was fitted with the training data and run for 100 epochs. The test data was later used to evaluate the model and determine loss and accuracy
+A neural network model was created using Tensorflow Keras consisting of 2 hidden layers with relu activation and an outer layer with sigmoid. The model was fitted with the training data and run for 100 epochs. The test data was later used to evaluate the model and determine loss and accuracy
 
 ## Optimization
-The model was optimized by increasing the layer, increasing the neurons in each layer, changing the activation function in each layer and increasing/decreasing the epoch
+The model was optimized by increasing the layers, increasing the neurons in each layer, changing the activation function in each layer and increasing/decreasing the epoch
 
 ## Summary
-The model only shows the accuracy of 73%. 
-Changing various parameters didnot improve the accuracy greatly. 
-More features in the dataset could help in training the data better.
+The model only shows the accuracy of 73%. With various attempts to optimize the test accuracy dropped to 72%. Changing various parameters didnot improve the accuracy greatly. 
+
+The auto tuning method could be used to get the best hyperparameters for the model. Maybe those values could yield better accuracy.
+
+More features and more number of records in the dataset could help in training the data better and provide better accuracy.
