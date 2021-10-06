@@ -28,7 +28,7 @@ A neural network model was created using Tensorflow Keras consisting of 2 hidden
 The model was optimized by increasing the layers, increasing the neurons in each layer, changing the activation function in each layer and increasing/decreasing the epoch
 
 ## Summary
-The model only shows the accuracy of 73%. With various attempts to optimize the test accuracy dropped to 72%. Changing various parameters didnot improve the accuracy greatly. 
+The model only shows the accuracy of 72%. With various attempts to optimize the test accuracy was around the same. Changing various parameters as expected did not improve the accuracy greatly. 
 
 The auto tuning method could be used to get the best hyperparameters for the model. Maybe those values could yield better accuracy.
 
